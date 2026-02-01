@@ -44,12 +44,12 @@ export default function Contact() {
           <div className="p-6 border border-gray-200 rounded-lg hover:border-primary-300 transition-colors">
             <h3 className="text-sm font-medium text-gray-500 mb-2">LinkedIn</h3>
             <a
-              href="https://linkedin.com/in/malak-elnagar"
+              href="https://linkedin.com/in/malakabass"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg text-gray-900 hover:text-primary-600 transition-colors font-light"
             >
-              linkedin.com/in/malak-elnagar
+              linkedin.com/in/malakabass
             </a>
           </div>
 
@@ -57,12 +57,12 @@ export default function Contact() {
           <div className="p-6 border border-gray-200 rounded-lg hover:border-primary-300 transition-colors">
             <h3 className="text-sm font-medium text-gray-500 mb-2">GitHub</h3>
             <a
-              href="https://github.com/malak-elnagar"
+              href="https://github.com/malak-hady"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg text-gray-900 hover:text-primary-600 transition-colors font-light"
             >
-              github.com/malak-elnagar
+              github.com/malak-hady
             </a>
           </div>
         </motion.div>
