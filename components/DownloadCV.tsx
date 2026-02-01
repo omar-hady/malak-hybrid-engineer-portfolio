@@ -5,13 +5,8 @@ import { Download } from 'lucide-react'
 
 export default function DownloadCV() {
   const handleDownload = () => {
-    // Create a download link
-    const link = document.createElement('a')
-    link.href = '/Malak_Elnagar_CV.pdf' // This will be the actual CV file
-    link.download = 'Malak_Elnagar_CV.pdf'
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
+    // Redirect to Google Drive folder
+    window.open('https://drive.google.com/drive/folders/1VCLL-dbx6-nP3R2k9m3vmbQLDNgzFUtk?usp=sharing', '_blank')
   }
 
   return (

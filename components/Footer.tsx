@@ -28,7 +28,7 @@ export default function Footer() {
               <Mail className="w-5 h-5" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/malakabass/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 transition-colors"
@@ -39,7 +39,7 @@ export default function Footer() {
               <Linkedin className="w-5 h-5" />
             </motion.a>
             <motion.a
-              href="https://github.com"
+              href="https://github.com/malak-hady"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-700 transition-colors"

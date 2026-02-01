@@ -44,7 +44,7 @@ export default function Contact() {
           <div className="p-6 border border-gray-200 rounded-lg hover:border-primary-300 transition-colors">
             <h3 className="text-sm font-medium text-gray-500 mb-2">LinkedIn</h3>
             <a
-              href="https://linkedin.com/in/malakabass"
+              href="https://www.linkedin.com/in/malakabass/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg text-gray-900 hover:text-primary-600 transition-colors font-light"
