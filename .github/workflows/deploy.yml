@@ -34,10 +34,10 @@ jobs:
       - name: Build
         run: npm run build
       
-      - name: Copy to root for GitHub Pages
+      - name: Copy static files to root
         run: |
           cp -r out/* .
-          cp out/index.html ./index.html
+          cp out/index.html ./index.html || true
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -46,6 +46,27 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+          exclude-paths: |
+            .git
+            .github
+            node_modules
+            .next
+            out
+            app
+            components
+            data
+            public
+            *.json
+            *.js
+            *.ts
+            *.tsx
+            *.md
+            .gitignore
+            .eslintrc.json
+            postcss.config.js
+            tailwind.config.js
+            tsconfig.json
+            next.config.js
 
   deploy:
     environment:
