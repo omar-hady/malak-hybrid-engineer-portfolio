@@ -86,6 +86,27 @@ Edit `/components/Contact.tsx` to update:
 - LinkedIn profile URL
 - GitHub profile URL
 
+## 🚀 GitHub Pages Deployment
+
+This project is configured for static export and GitHub Pages deployment.
+
+### Option 1: Using GitHub Actions (Recommended)
+
+1. Go to repository **Settings → Pages**
+2. Under **Source**, select **GitHub Actions**
+3. The workflow will automatically build and deploy on every push to `main`
+
+### Option 2: Using Docs Folder
+
+1. Build the project: `npm run build`
+2. Copy files: `cp -r out/* docs/`
+3. Commit the `docs` folder
+4. Go to repository **Settings → Pages**
+5. Under **Source**, select **Deploy from a branch**
+6. Select **main** branch and **/docs** folder
+
+The static site is already built in the `docs` folder and ready to deploy.
+
 ## 🎨 Design Philosophy
 
 The portfolio avoids generic layouts and instead:
