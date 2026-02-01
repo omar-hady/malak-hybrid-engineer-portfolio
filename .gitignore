@@ -11,6 +11,9 @@
 # next.js
 /.next/
 /out/
+# GitHub Pages static files (keep these)
+# /index.html
+# /_next/
 
 # production
 /build
