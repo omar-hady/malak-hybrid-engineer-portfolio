@@ -44,7 +44,7 @@ export default function Navigation() {
             className="text-lg font-medium text-gray-900"
             whileHover={{ opacity: 0.7 }}
           >
-            M.A
+            Malak Elnagar
           </motion.a>
 
           {/* Desktop Menu */}
