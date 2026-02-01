@@ -18,7 +18,7 @@ export default function Contact() {
           </h2>
           <div className="h-px w-16 bg-gradient-to-r from-primary-500 to-primary-600 mb-4" />
           <p className="text-lg text-gray-600 font-light">
-            Let's connect and discuss opportunities
+            Let&apos;s connect and discuss opportunities
           </p>
         </motion.div>
 

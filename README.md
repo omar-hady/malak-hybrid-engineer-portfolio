@@ -22,14 +22,17 @@ The design metaphor is subtly integrated throughout the layout, section naming, 
 6. **Certifications & Badges** - Interactive certification cards with hover effects
 7. **Skills Map** - Visual representation showing overlap between Telecom & AI
 8. **Leadership & Impact** - IEEE involvement, volunteering, and recommendations
+9. **Download CV** - Easy access to download resume in PDF format
+10. **Contact** - Professional contact information and links
 
 ### Design Highlights
 
-- Dark modern theme with gradient accents
+- Clean, minimalist light theme with white background
+- Subtle blue gradient accents
 - Smooth animations using Framer Motion
 - Responsive design for all devices
-- Interactive network visualization in hero section
-- Clean typography with Inter and JetBrains Mono fonts
+- Typography-first design with generous spacing
+- Subtle mouse-follow glow effect
 
 ## 🛠 Tech Stack
 
@@ -64,10 +67,24 @@ npm start
 
 All portfolio data is stored in `/data/portfolio.ts`. Update this file to customize:
 - Timeline experiences
-- Projects (Telecom, AI, Fusion)
+- Projects (Telecom, AI)
 - Certifications
 - Skills
 - Leadership information
+
+### Adding Your CV
+
+To enable the CV download feature:
+1. Create a `public` directory in the project root (if it doesn't exist)
+2. Place your CV PDF file named `Malak_Elnagar_CV.pdf` in the `public` directory
+3. The download button will automatically work
+
+### Updating Contact Information
+
+Edit `/components/Contact.tsx` to update:
+- Email address
+- LinkedIn profile URL
+- GitHub profile URL
 
 ## 🎨 Design Philosophy
 
